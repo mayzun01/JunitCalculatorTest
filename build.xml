@@ -3,11 +3,12 @@
    <property name = "srcdir" location = "src" />
    <property name = "outputdir" value = "output" />
    <property name = "full-compile" value = "true" />
+   <property name="LIB_HOME" value="D:/junit"/>
 	
    <path id = "classpath.base"/>
 	
    <path id = "classpath.test">
-      <pathelement location = "lib/junit-4.10.jar" />
+	  <pathelement location="${LIB_HOME}/lib/junit-4.10.jar"/>
       <pathelement location = "${testdir}" />
       <pathelement location = "${srcdir}" />
       <path refid = "classpath.base" />
