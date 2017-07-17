@@ -14,6 +14,6 @@ public class AdditionTest {
 		System.out.println("*** Test use of Addition ***");
 		int z = addition.twoValues();
 		System.out.println(" Result: addition of " +x+ " and " +y+ " is " + z );
-		assertEquals(20,z);
+		assertEquals(15,z);
 	}
 }
